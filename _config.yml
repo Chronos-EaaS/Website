@@ -29,6 +29,16 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1500
+          height: 2500
+  -
+    scope:
+      path: ""
     values:
       layout: "page"
   -
@@ -36,11 +46,6 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 
 plugins:
