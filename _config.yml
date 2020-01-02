@@ -23,6 +23,8 @@ social:
 
 timezone: Etc/UTC
 
+permalink: pretty
+
 defaults:
   -
     scope:
@@ -34,13 +36,16 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
+  -
+    scope:
+      path: "contact.html"
+    values:
+      full_width: true
+
 
 plugins:
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
 
 exclude:
   - Gemfile
