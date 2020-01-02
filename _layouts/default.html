@@ -14,7 +14,9 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/blank.svg" alt="" width="95" height="33" /></a></div>
+				{% if page.url == "/index.html" %}
+				   <div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="" height="40" /></a></div>
+				{% endif %}
 				{% include navigation.html %}
 			</div>
 		</header>
@@ -34,8 +36,8 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright"><strong>Chronos</strong> is a project of the <a href="https://dbis.dmi.unibas.ch/">Databases and Information Systems (DBIS) Group</a> at the <a href="https://unibas.ch/">University of Basel.</a></p>
-				<p class="copyright">This site uses the <a href="https://github.com/CloudCannon/hydra-jekyll-template">Hydra Jekyll Template.</a></p>
+				<p class="copyright"><b>Chronos</b> is a project of the <a target="_blank" href="https://dbis.dmi.unibas.ch/">Databases and Information Systems (DBIS) Group</a> at the <a target="_blank" href="https://unibas.ch/">University of Basel.</a></p>
+				<p class="copyright">This site uses the <a target="_blank" href="https://github.com/CloudCannon/hydra-jekyll-template">Hydra Jekyll Template.</a></p>
 			</div>
 		</footer>
 		<script>
