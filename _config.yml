@@ -3,7 +3,7 @@
 
 title: Chronos
 url: "https://chronos-eaas.org"
-baseurl: chronos-eaas.org
+baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
