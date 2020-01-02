@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: The Swiss Army Knife for Systems Evaluations
+description: "The Swiss Army Knife for Systems Evaluations"
 author:
-  name: DBIS, University of Basel
+  name: "DBIS, University of Basel"
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: GitHub
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://github.com/Chronos-EaaS/
 
 # -----
 # Build
