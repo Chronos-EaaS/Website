@@ -5,13 +5,21 @@ title: Getting Started
 <p>This page gives an overview on how to deploy and use Chronos.</p>
 
 <br>
-<h3>Setup Chronos Control</h2>
-<p>There are different approaches on how to setup Chronos. The easiest and recommend way is to use the <a href="https://github.com/Chronos-EaaS/Chronos-Control/blob/master/install.php">install</a> script.</p>
+<h1>Setup Chronos Control</h2>
+<p>There are different approaches on how to setup Chronos. The easiest and recommend way is to use the <a href="https://github.com/Chronos-EaaS/Chronos-Control/blob/master/install.php">install</a> script. The <a href="https://github.com/Chronos-EaaS/Chronos-Control">GitHub readme</a> outlines the necessary steps to install Chronos Control using the provided install script. Please make sure to check the requirements section and to install missing software if required.</p>
 
-<p>The <a href="https://github.com/Chronos-EaaS/Chronos-Control">Getting Started</a> of our GitHub readme outlines the necessary steps to install Chronos Control using the install script. Please make sure to check the requirements section and to install missing software if required.</p>
 
 <br>
-<h3>Get in touch with us</h2>
+<h1>Integrate Chronos Agent</h1>
+<p>If you already have an evaluation client for your system you now need to connect it with Chronos Control. In the Chronos terminology, we call the module for doing this communication <i>Chronos Agent</i>. We provide a <a href="https://github.com/Chronos-EaaS/Chronos-Agent">reference implementation</a> of Chronos Agent in Java. We recommend to use this this implementation for your project because it supports all features.</a>
+
+<p>If you are using a non-jvm language it is possible to write your own Chronos Agent. The whole communication between Chronos Agent and Chronos Control is REST-based which makes it easy to implement. Please get in touch with us if you implemented our own Chronos Agent library consider sharing it.</p>
+
+<p>With the <a href="https://github.com/Chronos-EaaS/MongoDB-Demo-Client">MongoDB Demo Client</a> we provide an example on how to integrate Chronos Agent in an evaluation client.</a>
+
+
+<br>
+<h1>Get in touch with us</h2>
 <p>Please let us know if you have troubles by either opening an <a href="https://github.com/Chronos-EaaS/Chronos-Control/issues">issue</a> on GitHub or directly via <a href="/contact/">Mail</a>.</p>
 
 <p>Also if we did a good job and you have no issues with Chronos we are very happy to hear from you. Getting feedback on how Chronos improves your workflow motivates us to continuously improve Chronos and to add additional features.</p>
