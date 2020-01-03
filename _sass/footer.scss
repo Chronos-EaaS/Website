@@ -67,6 +67,11 @@
 }
 
 footer {
+    clear: both;
+    position: relative;
+    height: 140px;
+    margin-top: -140px;
+	
 	padding: 50px 0 50px 0;
 	font-size: 1.1em;
 	position: relative;
