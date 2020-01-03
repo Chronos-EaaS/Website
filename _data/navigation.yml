@@ -1,5 +1,5 @@
-- name: Setup
-  link: /setup/
+- name: Getting Started
+  link: /getting-started/
   new_window: false
   highlight: false
 - name: About
