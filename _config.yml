@@ -8,7 +8,10 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-image: /og-image.png
+image: 
+  path: /og-image.png
+  height: 1200
+  width: 630
 type: website
 description: "The Swiss Army Knife for Systems Evaluations"
 author:
